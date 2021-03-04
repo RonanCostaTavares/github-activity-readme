@@ -1614,7 +1614,7 @@ Toolkit.run(
       (content) => content.trim() === "<!--END_SECTION:activity-->"
     );
 
-    if (!content.length) {s
+    if (!content.length) {
       tools.exit.success("No PullRequest/Issue/IssueComment events found");
     }
 
